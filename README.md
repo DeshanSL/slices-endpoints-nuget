@@ -3,6 +3,7 @@ This NuGet package simplifies the implementation of minimal APIs within nested, 
 
 ## Start services
 
+Current working assembly must be provided by referencing one of your classes
 ```csharp
 app.UseSliceEndpoints(options =>
 {
