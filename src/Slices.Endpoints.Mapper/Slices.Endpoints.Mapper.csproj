@@ -21,7 +21,7 @@
 		<Product>SliceNest.MinimalEndpoints</Product>
 		<Description>This NuGet package simplifies the implementation of minimal APIs within nested, non-static classes, making it an ideal choice for organizing endpoints in vertical slice architecture projects. It provides a clean, modular structure that enhances code organization by grouping related endpoints within feature-based classes.</Description>
 		<RepositoryUrl>https://github.com/DeshanSL/returns</RepositoryUrl>
-		<PackageTags>Vertical; Vertical-Slice; dotnet;</PackageTags>
+		<PackageTags>Vertical; Vertical-Slice; dotnet; aspdotnet; nonstaticclass; nestedendpoints; </PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageReadmeFile>Readme.md</PackageReadmeFile>
 		<PackageProjectUrl>https://github.com/DeshanSL/returns</PackageProjectUrl>
