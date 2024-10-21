@@ -7,10 +7,24 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
-	</ItemGroup>
-	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 	</ItemGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageId>Slices.Endpoints.Mapper</PackageId>
+		<Title>SliceNest.MinimalEndpoints</Title>
+		<Version>1.0.0</Version>
+		<Authors>Kavindu Deshan</Authors>
+		<Company>Kavindu Deshan</Company>
+		<Product>SliceNest.MinimalEndpoints</Product>
+		<Description>This NuGet package simplifies the implementation of minimal APIs within nested, non-static classes, making it an ideal choice for organizing endpoints in vertical slice architecture projects. It provides a clean, modular structure that enhances code organization by grouping related endpoints within feature-based classes.</Description>
+		<RepositoryUrl>https://github.com/DeshanSL/returns</RepositoryUrl>
+		<PackageTags>Vertical; Vertical-Slice; dotnet;</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>Readme.md</PackageReadmeFile>
+		<PackageProjectUrl>https://github.com/DeshanSL/returns</PackageProjectUrl>
+	</PropertyGroup>
 
 </Project>
